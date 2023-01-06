@@ -3,6 +3,7 @@
     height:380px;
     width: 380px;
     position: relative;
+    left: 10px; top: 10px;
 
 }
 .cyan{
@@ -27,4 +28,9 @@
     width: 380px;
     position: absolute;
     left: 400px;
+}
+.jaune{
+    background-image: url("../img/Square_Yellow.jpg");
+    height: 800px;
+    width: 800px;
 }
