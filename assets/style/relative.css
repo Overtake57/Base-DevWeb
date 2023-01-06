@@ -1,0 +1,22 @@
+.bleu{
+    background-image: url("../img/Carré_bleu2.jpg");
+    height:480px;
+    width: 480px;
+    
+
+}
+.cyan{
+    background-image: url("../img/Carré_bleu_ciel.jpg");
+    height:380px;
+    width: 380px;
+    position: relative;
+    top: 50px; left: 300px;
+    z-index: 50;
+}
+.orange{
+    background-image: url("../img/Carré_orange.jpg");
+    height:280px;
+    width: 280px;
+    position: relative;
+    top: 50px; right: 260px;
+}

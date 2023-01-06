@@ -1,0 +1,27 @@
+.quatrieme {
+    background-image: url("../img/godzila4.jpg");
+    width: 1784px;
+    height: 1024px;
+}
+
+.troisieme {
+    background-image: url("../img/godzila3.jpg");
+    width: 1400px;
+    height: 600px;
+}
+
+.second {
+    background-image: url("../img/godzila2.jpg");
+    width: 1100px;
+    height: 500px;
+}
+.premier {
+    background-image: url("../img/godzila1.jpg");
+    width: 900px;
+    height: 200px;
+}
+
+
+
+
+

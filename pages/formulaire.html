@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="../assets/style/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire</title>
+  </head>
+
+  <body>
+    <Header>
+      <a href="../index.html">Accueil</a>
+      <h1>Poids</h1>
+    </Header>
+    <form name="mon-formulaire1" action="page-envoi.html" method="get">
+      <p>
+        Votre prénom :<br />
+        <input type="text" name="prenom" value="" />
+      </p>
+      <p>
+        Votre nom :<br />
+        <input type="text" name="nom" value="" />
+      </p>
+      <p>
+        Date de naissance :<br />
+        <input type="date" name="date" value="" />
+      </p>
+      <p>
+        Sexe :<br />
+        <input type="checkbox" name="femme" value="femme" /> Femme
+        <input type="checkbox" name="homme" value="homme" /> Homme
+      </p>
+      <p>
+        Pays originaire :<br />
+        <select name="profil">
+          <option value="fr" selected="selected">France</option>
+          <option value="ger">Allemagne</option>
+          <option value="ita">Italie</option>
+        </select>
+      </p>
+      <p>
+        Votre message :<br />
+        <textarea name="le-message" rows="6" cols="40"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Envoyer" />
+        <input type="reset" value="Annuler" />
+      </p>
+    </form>
+  </body>
+</html>

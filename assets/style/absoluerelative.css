@@ -1,0 +1,30 @@
+.bleu{
+    background-image: url("../img/Carré_bleu2.jpg");
+    height:380px;
+    width: 380px;
+    position: relative;
+
+}
+.cyan{
+    background-image: url("../img/Carré_bleu_ciel.jpg");
+    position: relative;
+    height:380px;
+    width: 380px;
+    left: 400px;
+    
+}
+.orange{
+    background-image: url("../img/Carré_orange.jpg");
+    position: relative;
+    height: 380px;
+    width: 380px;
+    top: 400px;
+    right: 400px;
+}
+.gris{
+    background-image: url("../img/Carré_gris.jpg");
+    height: 380px;
+    width: 380px;
+    position: absolute;
+    left: 400px;
+}

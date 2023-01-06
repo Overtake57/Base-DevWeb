@@ -1,0 +1,56 @@
+/*
+  - lorsqu'une propriété est suivi par "!important" poids => infini
+  - element (ex: div) poids => 1points
+  - une classe (.para) ou un selecteur d'attribut ([data-test]) poids => 10points
+  - id => 100points
+*/
+
+[data-test="test2"] {
+  background-color: yellow !important;
+}
+
+/* 100 */
+#paragraphe1 {
+  background-color: purple;
+}
+
+/* 1 + 10 => 11 */
+div.paragraphe {
+  background-color: aqua;
+}
+
+/* 10 */
+.paragraphe {
+  background-color: orange;
+}
+
+/* 10 */
+[data-test="test"] {
+  background-color: brown;
+}
+
+/* 10 + 10 => 20 */
+.paragraphe.test {
+  background-color: tomato;
+}
+
+/* ---------------------------------------- */
+li {
+  color : blue;
+}
+
+/* 11 */
+li.vert {
+  color: green;
+}
+
+/* 10 */
+[data-name="ha"] {
+  color: orange;
+}
+
+
+
+#rose {
+  color: pink;
+}
