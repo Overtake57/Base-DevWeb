@@ -32,6 +32,7 @@ ul li {
   /**********/
  /*WRAPPER */
 /**********/
+
 .wrapper {
     display: -webkit-box;
     display: -moz-box;
@@ -98,7 +99,8 @@ ul li {
     max-width: 800px;
   }
 
-.article{display: flex;}
+.article{
+    display: flex;}
 
   /**********/
  /* FOOTER */
