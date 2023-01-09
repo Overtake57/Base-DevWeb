@@ -1,15 +1,16 @@
 @font-face {
-  src:url('../fonts/Roboto-Regular.ttf');
-  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-family: "Roboto";
 }
 
 body {
   background-color: #b6b2b2;
   margin: 0;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
-h1, h2{
+h1,
+h2 {
   text-align: center;
 }
 
@@ -43,7 +44,7 @@ section {
 
 ul {
   list-style-type: none;
-  padding-left : 0;
+  padding-left: 0;
 }
 
 ul a {

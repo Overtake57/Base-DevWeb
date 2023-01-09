@@ -1,32 +1,36 @@
 .quatrieme {
-    background-image: url("../img/Square_Yellow.jpg");
-    width: 300px;
-    height: 300px;
-    top: 50px; left: 300px;
-    z-index: 50;
-    position: relative;
-    float:left
+  background-image: url("../img/Square_Yellow.jpg");
+  width: 300px;
+  height: 300px;
+  top: 50px;
+  left: 300px;
+  z-index: 50;
+  position: relative;
+  float: left;
 }
 
 .troisieme {
-    background-image: url("../img/Carré_bleu2.jpg");
-    width: 300px;
-    height: 300px;
-    top: 50px; left:100px;
-    position: relative;
+  background-image: url("../img/Carré_bleu2.jpg");
+  width: 300px;
+  height: 300px;
+  top: 50px;
+  left: 100px;
+  position: relative;
 }
 
 .second {
-    background-image: url("../img/Carré_gris.jpg");
-    width: 300px;
-    height: 300px;
-    top: 240px; left:240px;
-    position: relative;
+  background-image: url("../img/Carré_gris.jpg");
+  width: 300px;
+  height: 300px;
+  top: 240px;
+  left: 240px;
+  position: relative;
 }
 .premier {
-    background-image: url("../img/Carré_orange.jpg");
-    width: 300px;
-    height: 300px;
-    top: 50px; left:100px;
-    position: relative;
+  background-image: url("../img/Carré_orange.jpg");
+  width: 300px;
+  height: 300px;
+  top: 50px;
+  left: 100px;
+  position: relative;
 }

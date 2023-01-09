@@ -1,28 +1,29 @@
-.orange{
-    background-image: url("../img/Carré_orange.jpg");
-    height:100px;
-    width: 700px;
-    position: absolute;
+.orange {
+  background-image: url("../img/Carré_orange.jpg");
+  height: 100px;
+  width: 700px;
+  position: absolute;
 }
 
-.bleu{
-    background-image: url("../img/Carré_bleu2.jpg");
-    height:200px;
-    width: 800px;
-    position: absolute;
-
+.bleu {
+  background-image: url("../img/Carré_bleu2.jpg");
+  height: 200px;
+  width: 800px;
+  position: absolute;
 }
-.gris  {
-    background-image: url("../img/Carré_gris.jpg");
-    height: 280px;
-    width: 280px;
-    position: absolute; 
-    top: 50px; right: 50px;
+.gris {
+  background-image: url("../img/Carré_gris.jpg");
+  height: 280px;
+  width: 280px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
 }
-.cyan{
-    background-image: url("../img/Carré_bleu_ciel.jpg");
-    height:380px;
-    width: 380px;
-    position: absolute;
-    top: 500px; right: 250px;
+.cyan {
+  background-image: url("../img/Carré_bleu_ciel.jpg");
+  height: 380px;
+  width: 380px;
+  position: absolute;
+  top: 500px;
+  right: 250px;
 }

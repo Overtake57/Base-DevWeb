@@ -1,33 +1,30 @@
-.bleu{
-    background-image: url("../img/Carré_bleu2.jpg");
-    height:380px;
-    width: 380px;
-    
-    
+.bleu {
+  background-image: url("../img/Carré_bleu2.jpg");
+  height: 380px;
+  width: 380px;
 }
-.cyan{
-    background-image: url("../img/Carré_bleu_ciel.jpg");
-    height:380px;
-    width: 380px;
-    right: 200px;
-    
+.cyan {
+  background-image: url("../img/Carré_bleu_ciel.jpg");
+  height: 380px;
+  width: 380px;
+  right: 200px;
 }
-.orange{
-    background-image: url("../img/Carré_orange.jpg");
-    position:fixed;
-    height: 380px;
-    width: 1080px;
-    bottom: 100px;
+.orange {
+  background-image: url("../img/Carré_orange.jpg");
+  position: fixed;
+  height: 380px;
+  width: 1080px;
+  bottom: 100px;
 }
-.gris{
-    background-image: url("../img/Carré_gris.jpg");
-    height: 380px;
-    width: 380px;
-    position: relative;
-    bottom: 380px;
+.gris {
+  background-image: url("../img/Carré_gris.jpg");
+  height: 380px;
+  width: 380px;
+  position: relative;
+  bottom: 380px;
 }
-.jaune{
-    background-image: url("../img/Square_Yellow.jpg");
-    height:380px;
-    width: 380px;
+.jaune {
+  background-image: url("../img/Square_Yellow.jpg");
+  height: 380px;
+  width: 380px;
 }

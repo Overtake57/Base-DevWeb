@@ -1,36 +1,35 @@
-.bleu{
-    background-image: url("../img/Carré_bleu2.jpg");
-    height:380px;
-    width: 380px;
-    position: relative;
-    left: 10px; top: 10px;
-
+.bleu {
+  background-image: url("../img/Carré_bleu2.jpg");
+  height: 380px;
+  width: 380px;
+  position: relative;
+  left: 10px;
+  top: 10px;
 }
-.cyan{
-    background-image: url("../img/Carré_bleu_ciel.jpg");
-    position: relative;
-    height:380px;
-    width: 380px;
-    left: 400px;
-    
+.cyan {
+  background-image: url("../img/Carré_bleu_ciel.jpg");
+  position: relative;
+  height: 380px;
+  width: 380px;
+  left: 400px;
 }
-.orange{
-    background-image: url("../img/Carré_orange.jpg");
-    position: relative;
-    height: 380px;
-    width: 380px;
-    top: 400px;
-    right: 400px;
+.orange {
+  background-image: url("../img/Carré_orange.jpg");
+  position: relative;
+  height: 380px;
+  width: 380px;
+  top: 400px;
+  right: 400px;
 }
-.gris{
-    background-image: url("../img/Carré_gris.jpg");
-    height: 380px;
-    width: 380px;
-    position: absolute;
-    left: 400px;
+.gris {
+  background-image: url("../img/Carré_gris.jpg");
+  height: 380px;
+  width: 380px;
+  position: absolute;
+  left: 400px;
 }
-.jaune{
-    background-image: url("../img/Square_Yellow.jpg");
-    height: 800px;
-    width: 800px;
+.jaune {
+  background-image: url("../img/Square_Yellow.jpg");
+  height: 800px;
+  width: 800px;
 }

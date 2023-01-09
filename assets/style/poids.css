@@ -36,7 +36,7 @@ div.paragraphe {
 
 /* ---------------------------------------- */
 li {
-  color : blue;
+  color: blue;
 }
 
 /* 11 */
@@ -48,8 +48,6 @@ li.vert {
 [data-name="ha"] {
   color: orange;
 }
-
-
 
 #rose {
   color: pink;
