@@ -3,9 +3,10 @@
 /**********/
 
 .header {
-    background-color: red;
-    text-align: center;
-    margin-bottom: -20px;}
+  background-color: red;
+  text-align: center;
+  margin-bottom: -20px;
+}
 
 /**********/
 /*   NAV  */
@@ -16,10 +17,13 @@
   padding-left: 0;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;}
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+}
 
 ul li {
-    flex: 1;}
+  flex: 1;
+}
 
 .menu a {
   background-color: red;
@@ -27,87 +31,95 @@ ul li {
   color: black;
   border: 1px solid black;
   padding: 10px;
-  display: block;}
+  display: block;
+}
 
-  /**********/
- /*WRAPPER */
+/**********/
+/*WRAPPER */
 /**********/
 
 .wrapper {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    font-weight: bold;
-    text-align: center;}
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
 
-    .wrapper > * {
-    padding: 10px;
-    flex: 1 100%;}
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
 
-  /**********/
- /*  ASIDE */
+/**********/
+/*  ASIDE */
 /**********/
 
 .main {
-    text-align: left;
-    background: deepskyblue;
-    max-width: 800px;
-  }
-  
-  .aside-1 {
-    background: gold;
-  }
-  
-  .aside-2 {
-    background: hotpink;
-  }
-  .aside-1 {
-    order: 1;
-  }
+  text-align: left;
+  background: deepskyblue;
+  max-width: 800px;
+}
 
-  .main {
-    order: 2;
-  }
+.aside-1 {
+  background: gold;
+}
 
-  .aside-2 {
-    order: 3;
-  }
+.aside-2 {
+  background: hotpink;
+}
+.aside-1 {
+  order: 1;
+}
+
+.main {
+  order: 2;
+}
+
+.aside-2 {
+  order: 3;
+}
 /*************/
 /*RESPONSIVE**/
 /*************/
 
-  @media all and (min-width: 600px) {
-    .aside {
-      flex: 1 auto;
-    }
+@media all and (min-width: 600px) {
+  .aside {
+    flex: 1 auto;
   }
-  @media all and (min-width: 800px) {
-    .main {
-      flex: 3 0px;
-    }
+}
+@media all and (min-width: 800px) {
+  .main {
+    flex: 3 0px;
   }
-  /**********/
- /* ARTICLE*/
+}
+/**********/
+/* ARTICLE*/
 /**********/
 .main {
-    text-align: left;
-    background: deepskyblue;
-    max-width: 800px;
-  }
+  text-align: center;
+  background: deepskyblue;
+  max-width: 800px;
+  columns: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
 
-.article{
-    display: flex;}
+.article {
+  display: flex;
+}
 
-  /**********/
- /* FOOTER */
+/**********/
+/* FOOTER */
 /**********/
 
 .footer {
-    background-color: greenyellow;
-    display: flex;
+  background-color: greenyellow;
+  display: flex;
+  text-align: center;
 }
-
