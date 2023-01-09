@@ -1,0 +1,59 @@
+
+.header {
+    
+    background-color: red;
+    text-align: center;
+    margin-bottom: -16px;
+    
+    
+}
+
+.menuSimple {
+    
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+
+}
+ul li {
+    flex: 1;
+    
+    
+}
+.menuSimple a {
+  background-color: red;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  display: block;
+  
+  
+}
+.aside1{
+    background-color: yellow;
+    display: flex;
+    
+}
+.main{
+    background-color: teal;
+    display: flex;
+    text-align: start;
+    
+    
+}
+
+.aside2{
+    background-color: purple;
+    display: flex;
+}
+
+.footer {
+    background-color: greenyellow;
+    display: flex;
+}
+
