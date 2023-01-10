@@ -1,0 +1,224 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);    
+    grid-template-rows: repeat(14, 1fr);
+    background-color: #ffffff;
+    padding: 10px;
+    height: 431px;
+    width: 605px;
+}
+.div1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 1 / 4;
+  
+  
+}
+.div2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-column: 8 /2;
+  grid-row: 1 / 1;
+}
+
+.div3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-column: 17 / 8;
+  grid-row: 1 / 1;
+  
+}
+.div4 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 1 / 8;
+  
+}
+.div5 {
+  background-color: gold;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 1 / 8;
+}
+.div6 {
+  background-color: darkblue;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 2/4;
+  grid-column: 2 / 8;
+}
+.div7 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 2/4;
+  grid-column: 8/11;
+}
+.div8 {
+  background-color: darkblue;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 2/4;
+  grid-column: 11/17;
+}
+.div9 {
+  background-color: black;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 4/10;
+}
+.div10 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 4/10;
+  grid-column: 2/4
+}
+.div11 {
+  background-color: black;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 4/14;
+}
+.div12 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 4/8;
+  grid-column: 5/7;
+}
+.div13 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 4/8;
+}
+.div14 {
+  background-color: gold;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 4/8;
+  grid-column: 8/11;
+
+}
+.div15 {
+  background-color: darkred;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 4/8;
+  grid-column: 11/16;
+
+}
+.div16 {
+  background-color: darkred;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 4/8;
+ 
+}
+.div17 {
+  background-color: gold;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 8/10;
+
+}
+.div18 {
+  background-color: darkred;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 8/10;
+  grid-column: 6/8;
+
+}
+.div19 {
+  background-color: darkblue;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 8/10;
+  grid-column: 8/11;
+}
+.div20 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 8/10;
+  grid-column: 11/16;
+
+}
+.div21 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 8/10;
+}
+.div22 {
+  background-color: black;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+ grid-row: 8/10;
+ grid-column: 17/19;
+}
+.div23 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 10/14;
+  
+}
+.div24 {
+  background-color: darkred;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 10/14;
+  grid-column: 2/4 ;
+
+}
+.div25 {
+  background-color: gold;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 10/15;
+ 
+}
+.div26 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 10/13;
+  grid-column: 6/10
+}
+.div27 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 10/13;
+  grid-column: 10/14
+}
+.div28 {
+  background-color: darkblue;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 10/13;
+  grid-column: 14/16
+ 
+}
+.div29 {
+  background-color: gold;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 10/13;
+  grid-column: 16/17;
+ 
+}
+.div30 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 10/13;
+  grid-column: 17/19;
+
+}
+.div31 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 14;
+  grid-column: 1/5 ;
+  
+}
+.div32 {
+  background-color: darkred;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 13/15;
+  grid-column: 6/8;
+  
+}
+.div33 {
+  background-color: black;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 13/15;
+  grid-column: 8/14 ;
+
+}
+.div34 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  grid-row: 13/15;
+  grid-column: 14/19;
+
+}
+
