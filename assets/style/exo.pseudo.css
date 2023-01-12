@@ -18,6 +18,17 @@ table, caption, th, td {
   border: 2px solid rgb(0, 0, 0)
 }
 
+table:first-of-type tr:first-child th:first-line{
+  color: blue;
+}
+th:nth-child(odd){
+  background-color: #fff;
+}
+
+th:nth-child(even){
+  background-color: #fff;
+}
+
 tr:nth-child(odd) td:first-child{
   background-color: purple;
   color: #fff; }
@@ -29,6 +40,9 @@ tr:nth-child(odd) td:last-child{
   background-color: lightblue;
 }
 
-td:nth-child(odd) {
-  background-color: orangered;
+tr:nth-child(even) {
+  background-color: orange;
+}
+tr:nth-child(odd) {
+  background-color: brown;
 }
