@@ -1,0 +1,58 @@
+img {
+  width: 400px;
+}
+section a:hover {
+  background-color: rgb(0, 0, 0);
+}
+section a:visited {
+  color: rgb(0, 183, 255);
+}
+section a:active {
+  color: rgb(200, 0, 255);
+  font-style: italic;
+  font-size: 50px;
+}
+
+th:last-child[rowspan] {
+  border-right: none;
+  border-top: none;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  caption-side: top;
+}
+
+tr:first-child th:nth-child(2) {
+  font-size: 20px;
+  color: blue;
+}
+th:nth-child(odd) {
+  background-color: #fff;
+}
+
+th:nth-child(even) {
+  background-color: #fff;
+}
+
+tr:nth-child(odd) td:first-child {
+  background-color: purple;
+  color: #fff;
+}
+tr:nth-child(even) td:first-child {
+  background-color: grey;
+  color: #fff;
+}
+
+tr:nth-child(odd) td:last-child {
+  background-color: lightblue;
+}
+
+tr:nth-child(even) {
+  background-color: orange;
+}
+tr:nth-child(odd) {
+  background-color: brown;
+}
