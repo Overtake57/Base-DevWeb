@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(11, 77, 143);
+    background-color: #9AC4F8;
 
 }
 header, a{
@@ -18,7 +18,7 @@ header, a{
     bottom: 0;
 }
 .ball{
-    background-color: #e10f27;
+    background-color: #9A275A;
     height: 50px;
     width: 50px;
     border-radius: 50%;
