@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 .flex-container {
+  font-family: 'Roboto', sans-serif;
   flex-direction: column;
   display: flex;
   background-color: DodgerBlue;
- 
+
+
 }
 
 .flex-container > div {
@@ -11,4 +14,7 @@
   padding: 20px;
   font-size: 20px;
 }
-
+img {
+  height: 180px;
+  width: auto;
+}
