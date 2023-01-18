@@ -1,0 +1,70 @@
+body{
+    background-color: #9AC4F8;
+  }
+  
+  #div {
+    position: absolute; 
+    top: 50px;
+    width: 100px; 
+    height: 100px; 
+    background: blue;
+    animation-name: shift;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes shift{
+    from{
+       top: 0px;
+       left: 0px;
+    }
+    30% {
+       top: 860px;
+       left: 0px;
+    }
+    60% {
+       top: 860px;
+       left: 1760px;
+    }
+    80% {
+      top: 0px;
+      left: 1760px;
+   }
+    to {
+       top: 0px;
+       left: 0px;
+    }
+ }
+ #div2 {
+    color: red; position: absolute; 
+    left: 200px;  
+    top: 50px;
+    width: 100px; 
+    height: 100px; 
+    background: blue;
+    animation-name: shift;
+    animation-duration: 6.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+ }
+ @keyframes shift2{
+  from{
+    top: 0px;
+    left: 0px;
+ }
+ 25% {
+    top: 860px;
+    left: 0px;
+ }
+ 55% {
+    top: 860px;
+    left: 1760px;
+ }
+ 75% {
+   top: 0px;
+   left: 1760px;
+}
+ to {
+    top: 0px;
+    left: 0px;
+ }
+ }
