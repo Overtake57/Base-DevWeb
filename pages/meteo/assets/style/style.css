@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
-.flex-container {
+
+.container {
+  display: flex;
   font-family: 'Roboto', sans-serif;
   flex-direction: column;
-  display: flex;
   background-color: DodgerBlue;
-
-
+}
+.weather {
+  align-self: auto;
 }
 
-.flex-container > div {
+.container > div {
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
