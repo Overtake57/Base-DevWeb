@@ -9,9 +9,52 @@ body{
     height: 100px; 
     background: blue;
     animation-name: shift;
-    animation-duration: 7.5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
- }
+}
+
+#div2 {
+  animation-delay: 1s;
+  color: red; position: absolute; 
+  left: 200px;  
+  top: 50px;
+  width: 100px; 
+  height: 100px; 
+  background: blue;
+  animation-name: shift;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  
+}
+
+#div3 {
+  animation-delay: 2s;
+  color: rgb(10, 219, 90); position: absolute; 
+  left: 200px;  
+  top: 50px;
+  width: 100px; 
+  height: 100px; 
+  background: blue;
+  animation-name: shift;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+#div4 {
+  animation-delay: 3s;
+  color: rgb(10, 219, 90); position: absolute; 
+  left: 200px;  
+  top: 50px;
+  width: 100px; 
+  height: 100px; 
+  background: blue;
+  animation-name: shift;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
  @keyframes shift{
     from{
        top: 0px;
@@ -33,18 +76,6 @@ body{
        top: 0px;
        left: 0px;
     }
- }
- #div2 {
-    color: red; position: absolute; 
-    left: 200px;  
-    top: 50px;
-    width: 100px; 
-    height: 100px; 
-    background: blue;
-    animation-name: shift;
-    animation-duration: 6.5s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
  }
  @keyframes shift2{
   from{

@@ -13,22 +13,24 @@ div {
   width:200px;
   height:200px;
   margin:20px auto;
-  -webkit-animation:rescale 2s infinite;
+  animation:rescale 2s infinite;
   animation: rescale 2s infinite;
 }
 
 @keyframes rescale{
-  0% {transform:rotate(0deg);}
-  10% {transform:rotate(40deg);}
-  20% {transform:rotate(80deg);}
-  30% {transform:rotate(160deg);}
-  40% {transform:rotate(320deg);}
-  50% {transform:rotate(360deg);}
-  60% {transform:rotate(-320deg);}
-  70% {transform:rotate(-160deg);}
-  80% {transform:rotate(-80deg);}
-  90% {transform:rotate(-40deg);}
-  100% {transform:rotate(-0deg);}
+  from {
+    transform: rotate(359deg);
+    
+  }
+  50% {
+    transform: rotate(0);
+    /* background-color: #C11F99; */
+  }
+  to{
+    transform: rotate(359deg);
+    /* background-color: #32CBFF; */
+  }
+
   0% {
     background-color: red;
   }
