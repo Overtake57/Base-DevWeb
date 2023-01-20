@@ -1,99 +1,107 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <link rel="stylesheet" href="./assets/style/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>meteo</title>
+    <title>Meteo</title>
   </head>
   <body>
-    <header>
-      <a href="../../index.html">Accueil</a>
-    </header>
-    <div class="container">
-      <div class="weather">
-        <h2>New York, NY</h2>
-        <p>Tuesday, January 17th</p>
-        <img
-        src="./assets/img/28.png">
-        <p>58°F</p>
-        <ul>
-          <li>Precipitation: 100%</li>
-          <li>Humidity: 97 %</li>
-          <li>Wind: 4 mph SW</li>
-          <li>Pollen Count: 36</li>
-        </ul>
+    <div class="weather-widget">
+      <div class="weather-icon row">
+        <i class="wi wi-day-sunny"><img src='./assets/img/sun2.png'></i>
       </div>
-      <div class="weather">
-        <p>Today</p>
-        <img
-        src="./assets/img/37.png">
-        <ul>
-          <li>68°</li>
-          <li>36°</li>
-        </ul>
-        <p>Pollen 36</p>
+      <h1 class="temp-c row">71°F</h1>
+      <h5 class="condition row">Sunny</h5>
+      <h3 class="location-name row">New York, NY</h3>
+      <h5 class="location-country row">
+        Precipitation: 100%<br>Humidity: 97%<br> wind 4 mph SW<br> Pollen count: 36<br>
+      </h5>
+    </div>
+    <div class="weather-forecast">
+      <div class="forecast-item">
+        <div class="day">
+          <h4>Today</h4>
+          <h6>April 15th</h6>
+        </div>
+        <div class="forecast">
+          <img src="./assets/img/lightning.png">
+          <i class="wi wi-night-sleet">68°F</i>
+          <h6>Thunderstorms</h6>
+        </div>
       </div>
-      <div class="weather">
-        <p>Wednesday</p>
-        <img
-        src="./assets/img/orange.png">
-        <ul>
-          <li>50°</li>
-          <li>39°</li>
-        </ul>
-        <p>Pollen 36</p>
+
+      <div class="forecast-item">
+        <div class="day">
+          <h4>Wednesday</h4>
+          <h6>April 16th</h6>
+        </div>
+        <div class="forecast">
+          <img src="./assets/img/sun.png">
+          <i class="wi wi-night-sleet">50°F</i> 
+          <h6>Sunny</h6>
+        </div>
       </div>
-      <div class="weather">
-        <p>Thursday</p>
-        <img
-        src="./assets/img/orange.png">
-        <ul>
-          <li>55°</li>
-          <li>39°</li>
-        </ul>
-        <p>Pollen 36</p>
+
+      <div class="forecast-item">
+        <div class="day">
+          <h4>Thursday</h4>
+          <h6>April 17th</h6>
+        </div>
+        <div class="forecast">
+          <img src="./assets/img/sun.png">
+          <i class="wi wi-day-thunderstorm">55°F</i>
+          <h6>Sunny</h6>
+        </div>
       </div>
-      <div class="weather">
-        <p>Friday</p>
-        <img
-        src="./assets/img/28.png">
-        <ul>
-          <li>54°</li>
-          <li>43°</li>
-        </ul>
-        <p>Pollen 36</p>
+
+      <div class="forecast-item">
+        <div class="day">
+          <h4>Friday</h4>
+          <h6>April 18th</h6>
+        </div>
+        <div class="forecast">
+          <img src="./assets/img/cloud2.png">
+          <i class="wi wi-day-sunny">54°F</i> 
+          <h6>Partially covered</h6>
+        </div>
       </div>
-      <div class="weather">
-        <p>Saturday</p>
-        <img
-        src="./assets/img/45.png">
-        <ul>
-          <li>64°</li>
-          <li>46°</li>
-        </ul>
-        <p>Pollen 36</p>
+
+      <div class="forecast-item">
+        <div class="day">
+          <h4>Saturday</h4>
+          <h6>April 19th</h6>
+        </div>
+        <div class="forecast">
+          <img src="./assets/img/cloud3.png">
+          <i class="wi wi-night-sleet">64°F</i> 
+          <h6>Rainy</h6>
+        </div>
       </div>
-      <div class="weather">
-        <p>Sunday</p>
-        <img
-        src="./assets/img/45.png">
-        <ul>
-          <li>64°</li>
-          <li>50°</li>
-        </ul>
-        <p>Pollen 36</p>
+
+      <div class="forecast-item">
+        <div class="day">
+          <h4>Sunday</h4>
+          <h6>April 20th</h6>
+        </div>
+        <div class="forecast">
+          <img src="./assets/img/cloud3.png">
+          <i class="wi wi-night-sleet">64°F</i> 
+          <h6>Rainy</h6>
+        </div>
       </div>
-      <div class="weather">
-        <p>Monday</p>
-        <img
-        src="./assets/img/28.png">
-        <ul>
-          <li>61°</li>
-          <li>50°</li>
-        </ul>
-        <p>Pollen 36</p>
+
+      <div class="forecast-item">
+        <div class="day">
+          <h4>Monday</h4>
+          <h6>April 21th</h6>
+        </div>
+        <div class="forecast">
+          <img src="./assets/img/cloud2.png">
+          <i class="wi wi-night-sleet">61°F</i> 
+          <h6>Partly Cloudy</h6>
+        </div>
       </div>
     </div>
   </body>

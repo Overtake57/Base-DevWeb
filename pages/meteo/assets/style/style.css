@@ -1,22 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
-
-.container {
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
   display: flex;
-  font-family: 'Roboto', sans-serif;
-  flex-direction: column;
-  background-color: DodgerBlue;
-}
-.weather {
-  align-self: auto;
+  justify-content: start;
+  background-color: #efefef;
+  font-family: "Montserrat", sans-serif;
 }
 
-.container > div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 20px;
+div img{
+  height: 150px;
 }
-img {
-  height: 180px;
-  width: auto;
+.row {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.weather-widget {
+  padding: 20px 0;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  justify-items: center;
+  background-color: #2075CD;
+  color: white;
+  width: 25%;
+}
+
+.weather-icon {
+  font-size: 5rem;
+  animation: rotation 5s infinite linear;
+}
+
+.temp-c {
+  margin-bottom: 20px;
+}
+
+.location-country {
+  color: #c2c2c2;
+  font-weight: 300;
+}
+.weather-forecast {
+  width: 75%;
+}
+.forecast img{
+  height: 80px;
+}
+.forecast-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 20px;
+  transition: all 0.2s;
+}
+
+.forecast-item:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+.forecast-item h6 {
+  color: #888;
+  margin-top: 5px;
+}
+.forecast {
+  text-align: right;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    flex-flow: column;
+  }
+  .weather-widget {
+    width: 100%;
+  }
+  .weather-forecast {
+    width: 100%;
+  }
+  .temp-c {
+    margin-bottom: 7px;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
