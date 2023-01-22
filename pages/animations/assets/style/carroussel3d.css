@@ -1,4 +1,101 @@
 body{
-    background-color: #9AC4F8;
+    background-color: #ffffff;
   }
-  
+.square{
+    width: 100px;
+    height: 100px;
+   transform: rotateY(90deg);
+}
+
+#container{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    animation-name: tl1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#caroussel{
+    position: absolute;
+    animation-name:rotation;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-style: preserve-3d; 
+}
+.p0{
+  width: 500px;
+  display: flex;
+  position: absolute;
+  top: 65px;
+  justify-content: space-between;
+  transform-style: preserve-3d;
+}
+
+#p1{
+    transform: rotate(0deg);
+} 
+#p2{
+    transform: rotate(45deg);
+}
+#p3{ 
+    transform: rotate(90deg);
+}
+#p4{
+    transform: rotate(135deg);
+}   
+#square1{
+    background-color: rgb(4, 0, 255);
+}
+#square2{
+    background-color: rgb(112, 216, 136);
+}
+#square3{
+    background-color: rgb(192, 211, 85);
+}
+#square4{
+    background-color: rgb(29, 129, 140);
+}
+#square5{
+    background-color: rgb(245, 0, 49);
+}
+#square6{
+    background-color: rgb(0, 31, 89);
+}
+#square7{
+    background-color: rgb(134, 220, 121);
+}
+#square8{
+    background-color: rgb(246, 4, 141);
+}
+@keyframes rotation {
+    from{
+        transform: rotate3d(0deg);
+    }
+    to{
+        transform: rotate3d(1,1,1,360deg);
+    }
+}
+@keyframes tl1 {
+    0% {
+        top: 100px;
+        left: 100px;
+    }
+    25% {
+        left: 1000px;
+        top: 100px;
+    }
+    50% {
+        left: 1000px;
+        top: 500px;
+    }
+    75% {
+        left: 100px;
+        top: 500px;
+    }
+    100% {
+        top: 100px;
+        left: 100px;
+    } 
+}
