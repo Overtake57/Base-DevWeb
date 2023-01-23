@@ -1,5 +1,5 @@
 body{
-    background-color: #ffffff;
+    background-color: #000000;
   }
 .square{
     width: 100px;
@@ -83,16 +83,16 @@ body{
         left: 100px;
     }
     25% {
-        left: 1000px;
+        left: 1600px;
         top: 100px;
     }
     50% {
-        left: 1000px;
-        top: 500px;
+        left: 1600px;
+        top: 800px;
     }
     75% {
         left: 100px;
-        top: 500px;
+        top: 800px;
     }
     100% {
         top: 100px;
