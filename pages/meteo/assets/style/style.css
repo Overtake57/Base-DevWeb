@@ -72,7 +72,7 @@ div img{
 
 @media only screen and (max-width: 700px) {
   body {
-    flex-flow: column;
+    display: inline;
   }
   .weather-widget {
     width: 100%;
@@ -82,6 +82,20 @@ div img{
   }
   .temp-c {
     margin-bottom: 7px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  body {
+    display: inline;
+  }
+  .weather-widget {
+    width: 100%;
+  }
+  .weather-forecast {
+    width: 100%;
+  }
+  .temp-c {
+    margin-bottom: 10px;
   }
 }
 

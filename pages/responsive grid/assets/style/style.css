@@ -1,0 +1,140 @@
+html { padding: 0; 
+margin: 0; }
+
+body {
+	font: 1em/150% Arial, Helvetica, sans-serif;
+	padding: 0; margin: 0;
+}
+a {
+	color: #669;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+h1 {
+	font: bold 36px/100% Arial, Helvetica, sans-serif;
+}
+
+#topbar {
+	width: 100%;
+	height: 35px;
+	background: black;
+	color: white;
+	margin: 0;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#topbar p { margin-top: 0px; }
+
+#topbar a { color: rgb(10, 154, 221); }
+
+/************************************
+STRUCTURE
+*************************************/
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+#header {
+	height: 100px;
+	padding: 0 15px;
+}
+#content {
+	width: 290px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#middle {
+	width: 294px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+	width: 270px;
+	padding: 5px 15px;
+	float: left;
+}
+#footer {
+	clear: both;
+	padding: 0 15px;
+}
+
+/* border */
+#content {
+	background: #f8f8f8;
+}
+#sidebar {
+	background: #f0efef;
+}
+#header, #content, #middle, #sidebar {
+	margin-bottom: 5px;
+}
+
+#pagewrap, #header, #content, #middle, #sidebar, #footer {
+	border: solid 1px #ccc;
+}
+/************************************
+MEDIA QUERIES
+************************************/
+
+@media screen {
+    #footer {
+    display: none;
+}
+}
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 41%;
+		padding: 1% 4%;
+	}
+	#middle {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+	}
+	
+	#sidebar {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+
+	#header, #footer {
+		padding: 1% 4%;
+	}
+}
+
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+	
+	#middle {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+	
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+
+}
